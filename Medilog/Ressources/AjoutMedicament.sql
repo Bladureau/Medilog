@@ -1,0 +1,2 @@
+INSERT INTO `medicaments` ( `Designation`, `Type`, `Labo`) VALUES
+('ABILIFY 15 mg qui est l\'équivalent du \"LABILIFY\"', 'capsule d\'essai et de \"remplacement\"', 'laboratoire d\'Amiens \"ex LABAMIENS\"');

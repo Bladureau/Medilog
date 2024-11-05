@@ -1,0 +1,240 @@
+@media screen and (min-width : 1200px){     /* CSS Grand écran */
+    .enteteImg {
+        display: flex;
+        justify-content : left;
+    }
+
+    .titresite{
+        display: flex;
+        justify-content: center;
+    }
+
+    .petiteImage1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin-bottom: 20px;*/
+        margin-top: 10px;
+    }
+
+    .rowimage1 {
+        background-image: url('Ressources/devanture2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+
+    .bordure2 img {
+        height: 150px;
+    }
+
+    .petiteImage2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        height: 30%;    
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1200px) {  /* CSS Tablette */
+    .enteteImg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titresite{
+        display: flex;
+        justify-content: center;
+    }
+
+    .petiteImage1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin-bottom: 20px;*/
+        margin-top: 10px;
+        height: 100px;
+        width: auto;
+    }
+
+    .rowimage1 {
+        background-image: url('Ressources/devanture2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100px;
+    }
+
+    .bordure2 img {
+        height: 100px;
+    }
+
+    .petiteImage2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;    
+    }
+}
+
+@media screen and (max-width : 540px) { /* CSS Téléphone */
+    .titresite{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Paramètre globaux */
+
+.bordure {
+    border: 3px solid #1B4B67; 
+    border-radius: 5px;
+    margin: 0px;
+}
+
+img:hover{
+    transform:scale(1.2);
+}
+
+body{
+    background : linear-gradient(to bottom, #8EB3C8, white);
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.image img{
+    max-width: 100%;  
+    height: auto; 
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+.devant{
+    position: relative;
+}
+
+.text-overlay {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;         
+    color: #AE3030;               
+    height: 100%;                 
+    text-align: center; 
+    font-size: 1.75em; 
+    font-weight: bold;         
+}
+
+.col-3 {
+    position: relative; 
+}
+
+.bordureImg img{
+    border-radius: 15px ;
+    margin: 5px;
+}
+
+.centrer{
+    text-align: center;
+}
+
+.colimage1 {
+    background-image: url('Ressources/devanture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.titresite {
+    display: flex;
+    justify-content: center;
+    color: #AE3030;
+    font-weight: bold;
+    font-size: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.presentationsite {
+    display: flex;
+    color: #AE3030;
+    font-weight: bold;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descriptionsite {
+    display: flex;
+    color: #AE3030;
+    font-weight: bold;
+    font-size: 175%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.piedDePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #AE3030;
+    font-weight: bold;
+    font-size: 175%;
+    height: 100%;
+}
+
+.piedDePage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #AE3030;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+.imageLogo{
+    margin-top: 10px;
+    max-width: 100px;
+    height: auto;
+}
+
+.enGras {
+    font-weight: bold;
+}
+
+.bouton{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.raduisInput{
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.fa-spinner {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
